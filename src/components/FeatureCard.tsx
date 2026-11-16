@@ -1,6 +1,5 @@
-import type { Feature } from "../data";
 
-export default function FeatureCard({ feature }: { feature: Feature }) {
+export default function FeatureCard({ feature }) {
   const Icon = feature.icon;
 
   return (
