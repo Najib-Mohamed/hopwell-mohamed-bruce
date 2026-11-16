@@ -2,18 +2,18 @@ import { ArrowRight, Heart } from "lucide-react";
 // import { navLinks } from "../data";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
+  { label: "Home", href: "/" },
   { label: "About", href: "#about" },
   { label: "Causes", href: "#causes" },
   { label: "Volunteers", href: "#volunteers" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/contact" },
 ];
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white sticky-top shadow-sm py-3">
       <div className="container">
-        <a href="#home" className="navbar-brand d-flex align-items-center gap-2 font-title fw-bolder fs-3">
+        <a href="/" className="navbar-brand d-flex align-items-center gap-2 font-title fw-bolder fs-3">
           <span className="icon-box icon-box-sm">
             <Heart size={22} fill="currentColor" />
           </span>
