@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Features from "./components/Features";
 import Error404 from "./components/Error404";
-import ContactInfo from "./components/ContactInfo";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   // Le hash est lu directement depuis l'URL, y compris au chargement initial.
@@ -23,7 +23,7 @@ function App() {
       pageActuelle = <Features />;
       break;
     case "#contact":
-      pageActuelle = <ContactInfo />;
+      pageActuelle = <ContactPage />;
       break;
     default:
       pageActuelle = <Error404 />;
